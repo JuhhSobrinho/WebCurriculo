@@ -1,0 +1,70 @@
+
+
+
+
+<html>
+  <head><meta charset="utf-8">
+      <link rel="stylesheet" href="/style.css">
+  </head>
+
+  <body>
+      <header>
+          <div class="Juliano">
+          <div class="elipse"></div>
+          <h2 id="titulo">Juliano Narezi</h2>
+          <a  href="/index.html"><h6>< DEV Junior /></h6></a>
+          </div>
+          <nav>
+              <li><a href="/curriculo.html" >curriculo</a></li>
+              <div class="line"></div>
+              <li><a href="https://github.com/JuhhSobrinho">Projeto</a></li>
+              <div class="line"></div>
+              <li><a href="contato.html">Contato</a></li>
+          </nav>
+      </header>
+
+
+      
+                <form>
+                <h2>Contato</h2>
+                  <input type="text" id="corpo" name="corpo" placeholder="Nome">
+                  <input type="text" id="assunto" name="assunto" placeholder="Assunto">
+                  <button onclick="enviarEmail()">Enviar E-mail</button>
+                </form>
+                <script>
+                
+                
+                function enviarEmail() {
+                  var destinatario = "juliano.sobrinhojunior@gmail.com";
+                  var assunto = document.getElementById("assunto").value;
+                  var corpo = document.getElementById("assunto").value;
+                
+                  var link = "mailto:" + destinatario + "?subject=" + assunto + "&body=" + corpo;
+                  window.open(link);
+                }
+                
+                </script>
+
+      
+      <div class="lineinfo"></div>
+     
+      <div class="infoContato">
+      <div class="contato">
+          <h1 class="readme">@email</h1>
+          <h1 class="text">juliano.sobrinhojunior@gmail.com</h1>
+      </div>
+      <div class="contato">
+          <h1 class="readme">Telefone</h1>
+          <h1 class="text">(12) 99706-6993</h1>
+      </div>
+      <div class="contato">
+          <h1 class="readme">Redes Sociais</h1>
+          <a href="https://github.com/JuhhSobrinho"> <h1 class="text"> <img src="/assents/git.png"  width="20" height="20"> Juhh</h1></a>
+          <a href="https://www.instagram.com/juhh_sobrinho/"><h1 class="text"><img src="/assents/insta.png"  width="20" height="20"> juhh_sobrinho</h1></a>
+          <a href="https://www.linkedin.com/in/juliano-sobrinho-jr-0a157a25a/"><h1 class="text"><img src="/assents/linkedin.png"  width="20" height="20"> Juliano Narezi Sobrinho Junior</h1></a>
+
+      </div>
+  </div>
+  </body>
+
+  </html>

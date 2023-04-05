@@ -1,0 +1,213 @@
+body{
+    background-color: rgb(241, 241, 241);
+    border: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+                            /* menu ou header*/
+
+.elipse{
+    height: 30px;
+    width: 30px;
+    border-radius: 360px;
+    background-color: rgb(112, 4, 139);
+}
+
+.Juliano{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+
+header{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#titulo{
+    margin-left: 11px; 
+    margin-right: 11px; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h6{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.5;
+}
+
+nav, li, a{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    opacity: 0.65;
+    color: black;
+    font-size: 20px ;
+}
+
+a:hover{
+    opacity: 1;
+    transition: 0.30s;
+    color: rgb(112, 4, 139);
+
+}
+
+.line{
+    width: 1px;
+    height: 30px;
+    background-color: rgb(78, 2, 97);
+}
+
+nav{
+    display: flex;
+    float: right;
+    justify-content: right;
+    align-items: center;
+    width: 50%;
+}
+
+
+                             /* folder ou conteudo*/
+
+.folder{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#hello{
+    font-family:Andale Mono, monospace;
+    font-size: 70px;
+    width:45px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+
+}
+
+.readme{
+    font-family:Andale Mono, monospace;
+    font-size: 24px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text{
+    font-size: 18;
+    font-family:Verdana, sans-serif;
+    opacity: 0.5;
+    font-weight: 100;
+    width: 400px;
+
+}
+
+h1, #hello, .readme{
+    margin-left: 30px;
+}
+
+.elipse_foto{
+    width: 400;
+    height: 400;
+    border-radius: 360px;
+    background:url("/assents/foto.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    border: 3px solid rgb(112, 4, 139);
+}
+
+.button{
+    font-size: 20px;
+    height: 40px;
+    margin-right: 60px;
+    opacity: 0.75;
+}
+
+a.button:hover{
+    border-bottom: 1px solid rgb(112, 4, 139);
+    transition: border-bottom 0.5s ease;
+    width: 100%;
+
+  }
+
+
+
+                               /* contato ou redes*/
+
+.lineinfo{
+    height: 1px;
+    background-color: rgb(78, 2, 97);
+    margin: 20px;
+}
+
+.infoContato{
+    margin: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contato{
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+                            /* contato */
+
+
+
+
+  form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+button {
+  background-color: rgb(112, 4, 139);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(78, 2, 97);
+}
