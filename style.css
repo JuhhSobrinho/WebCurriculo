@@ -1,9 +1,11 @@
 body{
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(216, 216, 216);
     border: none;
     padding: 0;
     margin: 0 auto;
-    width: 100%;
+    width: 1080px;
+    background-image: url("/assents/linhas.png");
+    background-repeat: no-repeat;
 }
 
                             /* menu ou header*/
@@ -25,7 +27,6 @@ body{
 header{
     margin-left: 20px;
     margin-right: 20px;
-    height: 60px;
     display: flex;
     align-items: center;
 }
@@ -122,7 +123,7 @@ h1, #hello, .readme{
 .elipse_foto{
     width: 400;
     height: 400;
-    border-radius: 360px;
+    border-radius: 100%;
     background:url("/assents/foto.jpg");
     background-position: center;
     background-size: cover;
@@ -210,4 +211,64 @@ button {
 
 button:hover {
   background-color: rgb(78, 2, 97);
+}
+
+
+
+
+
+                            /* responsividade */
+
+
+
+
+@media screen and (max-device-width: 799px) {
+  /* Estilos para telas menores que 768 pixels */
+
+  .elipse{
+    height:30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: rgb(139, 4, 4);
+}
+
+  .elipse_foto{
+    width: 400;
+    height: 400;
+    border-radius: 100%;
+    background:url("/assents/foto.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 50px;
+    border: 3px solid rgb(78, 2, 97);
+    margin: 60px;
+}
+    .folder{
+        flex-direction: columns;
+        display:grid;
+
+    }
+
+    .infoContato{
+        flex-direction: columns;
+        display:grid;
+    }
+    
+    .contato{
+        height: 200px;
+        font-size: 24;
+    }
+
+    a, li {
+        font-size: 35px;
+
+    }
+
+    a.button, h1.text {
+        font-size: 30px;
+    }
+
+    .Juliano{
+        width: 40%;
+    }
 }
