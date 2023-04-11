@@ -107,8 +107,16 @@ nav{
     margin: 0;
 }
 
+.tituloConta{
+    font-family:Andale Mono, monospace;
+    font-size: 24px;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
 .text{
-    font-size: 18;
+    font-size: 17;
     font-family:Verdana, sans-serif;
     opacity: 0.5;
     font-weight: 100;
@@ -117,7 +125,7 @@ nav{
 }
 
 h1, #hello, .readme{
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .elipse_foto{
@@ -227,14 +235,15 @@ button:hover {
 
   .elipse{
     height:30px;
-    width: 30px;
+    width: 40px;
     border-radius: 100%;
-    background-color: rgb(139, 4, 4);
+    margin: 4px;
+    background-color: rgb(78, 2, 97);
 }
 
   .elipse_foto{
-    width: 400;
-    height: 400;
+    width: 700;
+    height: 700;
     border-radius: 100%;
     background:url("/assents/foto.jpg");
     background-position: center;
@@ -258,17 +267,48 @@ button:hover {
         height: 200px;
         font-size: 24;
     }
+    
+    .text{
+        width: 700px;
+    }
 
     a, li {
-        font-size: 35px;
+        font-size: 40px;
 
     }
 
-    a.button, h1.text {
+    #hello{
+        font-size: 170px;
+    }
+
+    h1.text {
         font-size: 30px;
     }
 
+    a.button{
+        font-size: 55px;
+    }
+
     .Juliano{
-        width: 40%;
+        width: 45%;
+    }
+
+    .tituloConta{
+        font-size: 45px;
+    }
+
+    #titulo{
+        font-size: 40px;
+        margin-right: 2px; 
+        margin-left: 2px;
+    }
+
+    .contato img{
+        height: 40px;
+        width: 40px;
+    }
+
+    #dev {
+        width: 200px;
     }
 }
